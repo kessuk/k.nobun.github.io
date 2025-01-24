@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KNAB-More</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: #313638; 
+            font-family: calibri;
+            padding-right: 15px;
+            padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; 
+            align-items: center; 
+            justify-content: space-between;
+            padding: 20px;
+		}
+		.logo a{
+			font-size: 35px; 
+            font-weight: 600; 
+            color: white;
+		}
+		li{
+			list-style: none; 
+            display: inline-block;
+		}
+		li a{
+			color: white; 
+            font-size: 18px; 
+            font-weight: bold; 
+            margin-right: 25px;
+		}
+        button {
+            background-color: #313638;
+            position: center ;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        button a {
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        video {
+            display: block;
+            margin: 0 auto;
+            width: auto;
+        }
+	</style>
+</head>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#">KNAB</a> </div>
+			<ul>
+                <li><a href="index.html" name="top">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="flex.html">Back</a></li>
+            </ul>
+		</div>
+	</nav>
+<body>
+    <main style="background-image: url('stel.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; occapacity: 0.5;">
+        <h1 style="text-align: center;">Animation</h1>
+        <br><br>
+        <section>
+                <div style="text-align: center;">
+                    <h2 style="text-align: center; color: #313638;"> This an a animation of a ball bouncing.  </h2>
+                </div>
+
+                <div class="video-container">
+
+                    <video src="Bouncingballwberd.mp4" controls width="auto" style="align-items: center;"></video>
+                    <br>
+                </div>
+                </div>
+                <br><br>
+                <div style="text-align: center;">
+                    <h2 style="text-align: center; color: #313638;"> Animation of a walking yellow haired stickman. </h2>
+                </div>
+
+                <div class="video-container">
+
+                    <video src="walkingstick.mp4" controls width="auto" style="align-items: center;"></video>
+                </div>
+                </div>
+                
+        </section>
+        <nav style="text-align: center;">
+        <br>
+        <button> <a href="#top">back...</a> </button>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kurt. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

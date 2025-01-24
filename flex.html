@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KNAB-Flex</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: #313638; 
+            font-family: calibri;
+            padding-right: 15px;
+            padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; 
+            align-items: center; 
+            justify-content: space-between;
+            padding: 20px;
+		}
+		.logo a{
+			font-size: 35px; 
+            font-weight: 600; 
+            color: white;
+		}
+		li{
+			list-style: none; 
+            display: inline-block;
+		}
+		li a{
+			color: white; 
+            font-size: 18px; 
+            font-weight: bold; 
+            margin-right: 25px;
+		}
+        button {
+            background-color: #313638;
+            position: center ;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        button a {
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+	</style>
+</head>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#">KNAB</a> </div>
+			<ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="flex.html">Flex</a></li>
+            </ul>
+		</div>
+	</nav>
+<body>
+    <main style="background-image: url('stel.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; occapacity: 0.5;">
+        <h1 style="text-align: center;">Photos</h1>
+        <br><br>
+        <section>
+                <div style="text-align: center;">
+                    <h4 style="fw-bolder">   Me & Lola in Plaza in DonCarlos took a photo around 2:30pm  </h4>
+                </div>
+
+                <div class="flex-container">
+                <div class="flex-item">
+                    <img style="margin-top: 0" src="plazadon.jpg"  alt="with lola" width="20" height="40">
+                    <br>
+                </div>
+                </div>
+
+                <div style="text-align: center;">
+                    <h4 style="fw-bolder">    We were going to our grandparents place in benget and we took a break to this cool mountain.   </h4>
+                </div>
+
+                <div class="flex-container">
+                <div class="flex-item">
+                    <img style="margin-top: 0;" src="mey.jpg" alt="somewhere" width="20" height="40">
+                </div>
+                </div>
+        </section>
+        <nav style="text-align: center;">
+        <button> <a href="Arts.html">Arts...</a> </button>
+        <button> <a href="more.html">More...</a> </button>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kurt. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
