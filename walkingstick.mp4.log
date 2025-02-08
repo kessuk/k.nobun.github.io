@@ -1,20 +1,0 @@
-D:/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i D:/Website/frame%04d.png -c:v libopenh264 -b:v 5000k D:/Website/walkingstick.mp4
-=====================================================
-Input #0, image2, from 'D:/Website/frame%04d.png':
-  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
-  Stream #0:0: Video: png, rgba(pc), 3508x2480 [SAR 11811:11811 DAR 877:620], 25 fps, 25 tbr, 25 tbn, 25 tbc
-Stream mapping:
-  Stream #0:0 -> #0:0 (png (native) -> h264 (libopenh264))
-Press [q] to stop, [?] for help
-[libopenh264 @ 000001d3ae55e540] Slice count will be set automatically
-[libopenh264 @ 000001d3ae55e540] [OpenH264] this = 0x000001D3AE4BB2E0, Warning:bEnableFrameSkip = 0,bitrate can't be controlled for RC_QUALITY_MODE,RC_BITRATE_MODE and RC_TIMESTAMP_MODE without enabling skip frame.
-Output #0, mp4, to 'D:/Website/walkingstick.mp4':
-  Metadata:
-    encoder         : Lavf58.76.100
-  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 3508x2480 [SAR 1:1 DAR 877:620], q=2-31, 5000 kb/s, 24 fps, 12288 tbn
-    Metadata:
-      encoder         : Lavc58.134.100 libopenh264
-    Side data:
-      cpb: bitrate max/min/avg: 5000000/0/5000000 buffer size: 0 vbv_delay: N/A
-frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.00 bitrate=4740.7kbits/s speed=0.00171x    frame=    4 fps=0.0 q=-0.0 size=       0kB time=00:00:00.12 bitrate=   3.1kbits/s speed=0.211x    frame=   11 fps= 10 q=-0.0 size=       0kB time=00:00:00.41 bitrate=   0.9kbits/s speed=0.378x    frame=   18 fps= 11 q=-0.0 size=       0kB time=00:00:00.70 bitrate=   0.5kbits/s speed=0.418x    frame=   22 fps=9.4 q=-0.0 size=     256kB time=00:00:00.87 bitrate=2397.0kbits/s speed=0.372x    frame=   26 fps=8.9 q=-0.0 size=     256kB time=00:00:01.04 bitrate=2013.5kbits/s speed=0.356x    frame=   33 fps=9.5 q=-0.0 size=     256kB time=00:00:01.33 bitrate=1573.1kbits/s speed=0.386x    frame=   40 fps= 10 q=-0.0 size=     256kB time=00:00:01.62 bitrate=1290.7kbits/s speed=0.409x    frame=   47 fps= 10 q=-0.0 size=     512kB time=00:00:01.91 bitrate=2188.4kbits/s speed=0.426x    frame=   54 fps= 11 q=-0.0 size=     512kB time=00:00:02.20 bitrate=1899.4kbits/s speed=0.44x    frame=   61 fps= 11 q=-0.0 size=     512kB time=00:00:02.50 bitrate=1677.8kbits/s speed=0.452x    frame=   68 fps= 11 q=-0.0 size=     512kB time=00:00:02.79 bitrate=1502.5kbits/s speed=0.458x    frame=   75 fps= 11 q=-0.0 size=     512kB time=00:00:03.08 bitrate=1360.4kbits/s speed=0.466x    frame=   82 fps= 11 q=-0.0 size=     512kB time=00:00:03.37 bitrate=1242.8kbits/s speed=0.473x    frame=   89 fps= 12 q=-0.0 size=     512kB time=00:00:03.66 bitrate=1144.0kbits/s speed=0.48x    frame=   96 fps= 12 q=-0.0 size=     512kB time=00:00:03.95 bitrate=1059.7kbits/s speed=0.484x    frame=  101 fps= 12 q=-0.0 Lsize=     717kB time=00:00:04.16 bitrate=1410.0kbits/s speed=0.487x    
-video:716kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.170504%
